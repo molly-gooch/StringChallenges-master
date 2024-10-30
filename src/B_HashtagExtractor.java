@@ -26,7 +26,7 @@ public class B_HashtagExtractor {
 
        String firstHashtag = post.substring(hash, hash+8);
        String secondHashtag = post.substring(hash2, hash2+6);
-        System.out.println("Hashtag:"+firstHashtag+"   Hashtag:"+ secondHashtag);
+        System.out.println("Hashtag:"+firstHashtag+", Hashtag:"+ secondHashtag);
 
 
     }

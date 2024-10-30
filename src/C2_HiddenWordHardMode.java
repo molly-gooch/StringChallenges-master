@@ -44,6 +44,8 @@ public class C2_HiddenWordHardMode {
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
+        System.out.println();
+        System.out.println("The song is Ameriican Requiem by Beyonce!");
     }
 
 }

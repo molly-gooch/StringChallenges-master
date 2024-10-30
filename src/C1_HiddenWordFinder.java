@@ -20,7 +20,7 @@ public class C1_HiddenWordFinder {
         /* TODO: your code goes here */
         int indexH = sentence.indexOf("H");
         String hiddenWord = sentence.substring(indexH, indexH+5);
-        System.out.println("Hidden word:"+hiddenWord);
+        System.out.println("Hidden word: "+hiddenWord);
     }
 
 }
